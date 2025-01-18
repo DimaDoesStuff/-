@@ -4,6 +4,7 @@
 </h1>
 
 For the background, put the background video file in the folder (make sure its a .mp4 file) and name it background.
+(couldent include file because it was to big)
 
 For the pfp put the gif file into the folder named pfp (make sure its a .gif file)
 
