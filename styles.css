@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+London&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Old London', serif;
+    background-color: #d3d3d3;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.video-background video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: grayscale(0%);
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #888;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.button {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    transition: background 0.3s, backdrop-filter 0.3s;
+    backdrop-filter: blur(5px);
+}
+
+.button:hover {
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(8px);
+}
